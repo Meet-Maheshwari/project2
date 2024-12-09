@@ -10,5 +10,5 @@ app.use("/", (req, res) => {
 })
 
 app.get("/home", (req, res) => {
-    res.send("Hello, this is New page");
+    res.send("This is the home page");
 })
